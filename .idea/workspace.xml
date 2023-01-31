@@ -4,25 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="920a6cf0-60f6-402d-bf50-2c51c677f127" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lesindmitrii/ipcounterapp/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lesindmitrii/ipcounterapp/benchmark/CounterBenchmark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lesindmitrii/ipcounterapp/benchmark/MapperBenchmark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lesindmitrii/ipcounterapp/counter/IPv4AddressCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lesindmitrii/ipcounterapp/counter/impl/BitSetIPv4AddressCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lesindmitrii/ipcounterapp/counter/impl/HashSetIPv4AddressCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lesindmitrii/ipcounterapp/mapper/IPv4AddressToIntMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lesindmitrii/ipcounterapp/mapper/impl/ByteBufferIPv4AddressToIntMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lesindmitrii/ipcounterapp/mapper/impl/SimpleIPv4AddressToIntMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BitSetIPv4AddressCounterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ByteBufferIPv4AddressToIntMapperTest.java" afterDir="false" />
+    <list default="true" id="920a6cf0-60f6-402d-bf50-2c51c677f127" name="Changes" comment="Initial commit">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/lesindmitrii/ipcounterapp/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lesindmitrii/ipcounterapp/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,8 +132,16 @@
       <workItem from="1675169046787" duration="194000" />
       <workItem from="1675169254000" duration="7741000" />
       <workItem from="1675179551784" duration="13496000" />
-      <workItem from="1675198474682" duration="2539000" />
+      <workItem from="1675198474682" duration="2844000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1675201736268</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675201736268</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +158,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -182,7 +177,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/BitSetIPv4AddressCounterTest.java</url>
-          <line>57</line>
+          <line>56</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

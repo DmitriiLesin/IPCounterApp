@@ -15,7 +15,7 @@ public class App {
     public static void main(String[] args) {
 
         if (args.length == 0) {
-            throw new IllegalArgumentException("The path to the address file is not specified");
+            throw new IllegalArgumentException("Path to the ip-addresses file is not specified");
         }
 
         Path filePath = Path.of(args[0]);
