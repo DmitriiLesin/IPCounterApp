@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="920a6cf0-60f6-402d-bf50-2c51c677f127" name="Changes" comment="Initial commit">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lesindmitrii/ipcounterapp/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lesindmitrii/ipcounterapp/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/lesindmitrii/ipcounterapp/benchmark/CounterBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lesindmitrii/ipcounterapp/benchmark/CounterBenchmark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/lesindmitrii/ipcounterapp/benchmark/MapperBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lesindmitrii/ipcounterapp/benchmark/MapperBenchmark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/lesindmitrii/ipcounterapp/counter/impl/BitSetIPv4AddressCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lesindmitrii/ipcounterapp/counter/impl/BitSetIPv4AddressCounter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,18 +38,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
-  <component name="RunManager" selected="Application.CounterBenchmark">
+}]]></component>
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.lesindmitrii.ipcounterapp.App" />
       <module name="IPCounterApp" />
@@ -73,12 +78,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ByteBufferIPv4AddressToIntMapperTest.addAEdgeCases" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MapperBenchmark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.lesindmitrii.ipcounterapp.benchmark.MapperBenchmark" />
       <module name="IPCounterApp" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ByteBufferIPv4AddressToIntMapperTest" />
-      <option name="METHOD_NAME" value="addAEdgeCases" />
-      <option name="TEST_OBJECT" value="method" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.lesindmitrii.ipcounterapp.benchmark.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -104,19 +112,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.MapperBenchmark" />
       <item itemvalue="Application.CounterBenchmark" />
       <item itemvalue="Application.App" />
-      <item itemvalue="JUnit.ByteBufferIPv4AddressToIntMapperTest.addAEdgeCases" />
       <item itemvalue="JUnit.ByteBufferIPv4AddressToIntMapperTest.convertAg" />
       <item itemvalue="JUnit.ByteBufferIPv4AddressToIntMapperTest.edgeCases" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CounterBenchmark" />
         <item itemvalue="Application.App" />
+        <item itemvalue="Application.CounterBenchmark" />
+        <item itemvalue="Application.MapperBenchmark" />
         <item itemvalue="JUnit.ByteBufferIPv4AddressToIntMapperTest.convertAg" />
         <item itemvalue="JUnit.ByteBufferIPv4AddressToIntMapperTest.edgeCases" />
-        <item itemvalue="JUnit.ByteBufferIPv4AddressToIntMapperTest.addAEdgeCases" />
       </list>
     </recent_temporary>
   </component>
@@ -133,6 +141,7 @@
       <workItem from="1675169254000" duration="7741000" />
       <workItem from="1675179551784" duration="13496000" />
       <workItem from="1675198474682" duration="2844000" />
+      <workItem from="1675235932882" duration="13055000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1675201736268</created>
@@ -171,19 +180,19 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/lesindmitrii/ipcounterapp/App.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/BitSetIPv4AddressCounterTest.java</url>
           <line>56</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/lesindmitrii/ipcounterapp/App.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="18" />
+          <url>file://$PROJECT_DIR$/src/main/java/org/lesindmitrii/ipcounterapp/counter/impl/BitSetIPv4AddressCounter.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../../Program Files/Eclipse Adoptium/jdk-17.0.5.8-hotspot/lib/src.zip!/java.base/java/util/BitSet.java</url>
+          <line>160</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -197,6 +206,10 @@
         <watch expression="Long." language="JAVA" />
         <watch expression="counter.negative.cardinality()" language="JAVA" />
         <watch expression="Integer.toUnsignedLong(Integer.MAX_VALUE)+Integer.toUnsignedLong(Integer.MAX_VALUE)" language="JAVA" />
+      </configuration>
+      <configuration name="Application">
+        <watch expression="negative.words.length" language="JAVA" />
+        <watch expression="Integer.MAX_VALUE" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>

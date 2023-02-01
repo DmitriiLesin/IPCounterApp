@@ -14,7 +14,7 @@ public class BitSetIPv4AddressCounter implements IPv4AddressCounter {
         if (ip >= 0) {
             positive.set(ip);
         } else {
-            negative.set(-ip - 1);
+            negative.set(~ip);
         }
     }
 

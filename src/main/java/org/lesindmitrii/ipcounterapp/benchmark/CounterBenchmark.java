@@ -14,10 +14,10 @@ import java.util.Map;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.concurrent.TimeUnit;
 
-@State(Scope.Benchmark)
-@OutputTimeUnit(TimeUnit.NANOSECONDS)
-@Fork(value = 1, warmups = 3)
 @BenchmarkMode(Mode.AverageTime)
+@State(Scope.Benchmark)
+@Fork(value = 1, warmups = 3)
+@OutputTimeUnit(TimeUnit.MILLISECONDS)
 public class CounterBenchmark {
     private final IPv4AddressCounter bitSetImpl = new BitSetIPv4AddressCounter();
     private final IPv4AddressCounter hashSetImpl = new HashSetIPv4AddressCounter();

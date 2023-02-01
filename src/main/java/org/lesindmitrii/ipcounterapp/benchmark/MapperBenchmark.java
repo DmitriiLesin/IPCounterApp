@@ -10,10 +10,10 @@ import org.openjdk.jmh.runner.options.OptionsBuilder;
 
 import java.util.concurrent.TimeUnit;
 
-@State(Scope.Benchmark)
-@OutputTimeUnit(TimeUnit.NANOSECONDS)
-@Fork(value = 1, warmups = 3)
 @BenchmarkMode(Mode.AverageTime)
+@State(Scope.Benchmark)
+@Fork(value = 1, warmups = 3)
+@OutputTimeUnit(TimeUnit.NANOSECONDS)
 public class MapperBenchmark {
 
     public static void main(String[] args) throws Exception {
